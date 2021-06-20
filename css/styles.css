@@ -118,6 +118,10 @@ body{
     padding-bottom: 4px;
 }
 
+.article_aside_cards a:hover{
+    transform: scale(1.2);
+}
+
 /* Main settings*/
 
 .books_container{
@@ -138,8 +142,12 @@ body{
 }
 
 .book_cover img{
-    width: 100px;
+    width: 90px;
     margin: 5px;
+}
+
+.book_cover:hover{
+    transform: scale(1.1);
 }
 
 .book_data{
