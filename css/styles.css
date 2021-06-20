@@ -151,7 +151,6 @@ body{
 }
 .title{
     padding: 5px;
-    text-decoration: underline;
     font-weight: bold;
     color:var(--base_color)
 }
