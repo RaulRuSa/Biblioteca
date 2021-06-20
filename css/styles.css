@@ -23,8 +23,8 @@ body{
     display: grid;
     grid-template: 
     "header_grid    header_grid" 15vh
-    "nav_grid       nav_grid" 8vh
-    "main_grid      aside_grid"
+    "nav_grid       nav_grid" 5vh
+    "main_grid      aside_grid" 
     "footer_grid    footer_grid" 10vh/
     minmax(80vw, 100vw) 200px;
 }
@@ -79,6 +79,9 @@ body{
 .nav_menu{
     display: flex;
     justify-content: space-evenly;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav_menu li{
@@ -124,10 +127,21 @@ body{
 
 /* Main settings*/
 
+.novelties_container, .most_read{
+    display: flex;
+    width: 90%;
+    margin: 0  auto 30px auto;
+    background-color: var(--firts_step_color);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+
 .books_container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .book_card{
@@ -176,7 +190,7 @@ body{
 
 .main_grid h2{
     color:var(--base_color);
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 
@@ -203,4 +217,5 @@ body{
 .footer_grid p{
     font-size: 12px;
     text-align: center;
+    color:var(--fouth_step_color);
 }
