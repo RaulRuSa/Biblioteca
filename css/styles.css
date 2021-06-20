@@ -23,7 +23,7 @@ body{
     display: grid;
     grid-template: 
     "header_grid    header_grid" 15vh
-    "nav_grid       nav_grid" 5vh
+    "nav_grid       nav_grid" 8vh
     "main_grid      aside_grid" 
     "footer_grid    footer_grid" 10vh/
     minmax(80vw, 100vw) 200px;
