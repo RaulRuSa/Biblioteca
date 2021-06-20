@@ -2,7 +2,7 @@
     --base_color: #2a493e;
     --firts_step_color: #427f6a;
     --second_step_color: #53a098;
-    --third_step_color: #60bbc8;
+    --third_step_color: #4faca2;
     --fouth_step_color: #77d3eb;
     --fifth_step_color: #a9dad9;
 
@@ -104,7 +104,7 @@ body{
     flex-direction: column;
     align-items: center;
     border-radius: 3px;
-    box-shadow: 0px 2px 4px black;
+    box-shadow: 3px 3px 5px var(--firts_step_color);
     margin: 0.4em;
     background-color: var(--second_step_color);
 }
@@ -116,8 +116,62 @@ body{
 .article_aside_cards img{
     width: 90%;
     padding-bottom: 4px;
-    
 }
+
+/* Main settings*/
+
+.books_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book_card{
+   width: 400px;
+   height: 200px;
+   background-color: #4faca2;
+   display: flex;
+   align-items: center;
+   border-radius: 5px;
+   box-shadow: 3px 3px 4px var(--firts_step_color);
+   margin: 0.5em;
+}
+
+.book_cover img{
+    width: 100px;
+    margin: 5px;
+}
+
+.book_data{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 2px solid var(--base_color);
+}
+.title{
+    padding: 5px;
+    text-decoration: underline;
+    font-weight: bold;
+    color:var(--base_color)
+}
+
+.author{
+    color:var(--base_color);
+    padding-bottom: 5px;
+}
+
+.synopsis{
+    color:var(--base_color);
+    padding:0 5px;
+    overflow: hidden;
+}
+
+.main_grid h2{
+    color:var(--base_color);
+    padding-left: 10px;
+}
+
 
 
 /* Footer settings*/
