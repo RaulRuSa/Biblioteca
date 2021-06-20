@@ -1,0 +1,47 @@
+:root{
+    --base_color: #2a493e;
+    --firts_step_color: #427f6a;
+    --second_step_color: #53a098;
+    --third_step_color: #60bbc8;
+    --fouth_step_color: #77d3eb;
+    --fifth_step_color: #a9dad9;
+
+}
+
+body{
+    display: grid;
+    grid-template: 
+    "header_grid    header_grid" 15vh
+    "nav_grid       nav_grid" 10vh
+    "main_grid      aside_grid"
+    "footer_grid    footer_grid" 8vh/
+    minmax(80vw, 100vw) 200px;
+}
+
+.header_grid{
+    grid-area:header_grid;
+    background-color: var(--base_color);
+}
+
+.nav_grid{
+    grid-area: nav_grid;
+    background-color: var(--firts_step_color);
+
+}
+
+.main_grid{
+    grid-area:main_grid;
+    background-color: var(--second_step_color);
+ 
+}
+
+.aside_grid{
+    grid-area: aside_grid;
+    background-color: var(--third_step_color);
+}
+
+.footer_grid{
+    grid-area: footer_grid;
+    background-color: var(--firts_step_color);
+}
+
